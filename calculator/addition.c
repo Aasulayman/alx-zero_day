@@ -31,8 +31,28 @@ scanf("%d", &t);
   }
 }
 
+int subtraction(void)
+{
+  int a, b, subtract;
+  printf("Enter the number to subtract:\n");
+  scanf("%d %d", &a, &b);
+  subtract = a - b;
+  printf("Subtraction: %d - %d = %d\n", a, b, subtract);
+}
+int divisionof(void)
+{
+  int a, b, div;
+  printf("Enter the number to divide:\n");
+  scanf("%d %d", &a, &b);
+  div = a/b;
+  printf("Division: %d / %d = %d\n", a, b, div);
+    
+}
+
 int main(void)
 {
   add ();
   multiplicationof ();
+  subtraction();
+  divisionof();
 }

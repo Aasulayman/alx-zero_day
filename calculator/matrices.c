@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int mat(void)
+{
+  int i, j, nrows, ncols, mat;
+  printf("Enter matix rows and cols:\t");
+  scanf("%d %d", &nrows, &ncols);
+  for (i = 0; i < nrows; i++)
+    {
+      for (j=0; j < ncols; j++)
+	{
+	  mat = mat[i][j];
+	  scanf("%d", &mat[i][j]);
+	  printf("Matrix: %d \t", mat[i][j]);
+    }
+      printf('\n');
+}
+}
+int main(void)
+{
+  mat();
+}
