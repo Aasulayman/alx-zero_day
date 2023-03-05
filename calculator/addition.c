@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+* main - calculate
+*
+* Return : always 0
+*/
+int add(void)
+{
+  int a, b, sum;
+  printf("Enter numbers to add\n");
+  scanf("%d%d", &a, &b);
+
+  sum = a + b;
+
+  printf("Addition: %d + %d = %d\n", a, b, sum);
+}
+
+int main(void)
+{
+  add ();
+}
